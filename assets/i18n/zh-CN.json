@@ -21,8 +21,48 @@
       "PROXY_SERVER_CONFIG_COMMENT": "运行API的代理服务",
       "APPLY": "应用"
     },
+    "DOCS": {
+      "CREATE": "创建新文档",
+      "SELECT_A_DOC": "请先在左侧选择一篇文档",
+      "COPY_HOST": "复制域名",
+      "COPY_PATH": "复制路径",
+      "COPY_ALL": "复制全部",
+      "APPEND_DOC": "追加文档",
+      "JSON_DOC_GEN": "编辑文档",
+      "FROM_AUTO_GEN": "这个文档是接口测试自动生成的",
+      "FROM_AUTO_USER_CREATE": "这个文档是用户自己创建的",
+      "DOC_URL": "请求URL",
+      "DOC_HEADER": "请求头设置",
+      "REQ_TYPE": "请求方式",
+      "QUERY_PARAM": "查询参数",
+      "FORM_DATA": "表单数据",
+      "BODY_TEXT": "请求体示例",
+      "BODY_TEXT_INFO": "请求体说明",
+      "RESP_BODY_TEXT": "返回数据示例",
+      "RESP_BODY_TEXT_INFO": "返回数据说明",
+      "RUNNER": "执行面板",
+      "JSON_DOC_GEN_EXIST": "退出编辑",
+      "ADD_CONTENT": "请点击上方添加按钮创建内容",
+      "ADD_NEW_ARTICLE": "添加页面",
+      "BACK": "返回",
+      "DOC_NAME": "文档名称",
+      "EDITOR_DATA": "获取编辑器数据",
+      "STASH": "暂存",
+      "EDIT": "编辑",
+      "LOADING_BLOCK": "文档块正在加载中....",
+      "SAVE": "保存",
+      "JSON_FIELD_NAME": "字段名",
+      "JSON_FIELD_TYPE": "字段类型",
+      "JSON_FIELD_SAMPLE": "示例值",
+      "JSON_FIELD_DESCRIBE": "描述",
+      "PREVIEW": "预览",
+      "COLLECTION_SELECT": "选择测试组",
+      "HTTP_SELECT": "选择HTTP"
+    },
     "API_TEST": {
       "NAME": "API 测试",
+      "NO_CONTENT": "没有内容可以展示",
+      "SELECT_FROM_MENU": "请先在左边菜单树中选择",
       "TREE_MENU": {
         "SEARCH_PLACE_HOLDER": "根据名称或者关键字搜索API",
         "ADD_HTTP": "创建 Http API",
@@ -34,6 +74,7 @@
       "HEADER": {
         "ENV_SELECT": "选择环境",
         "METHOD_SELECT": "Method",
+        "DISCARD_CHANGE": "丢弃变更",
         "SAVE": "保存"
       },
       "REQ": {
@@ -47,6 +88,13 @@
         "EMPTY_HEADERS_HEADER": "没有从响应中接收到 Header",
         "EMPTY_COOKIE_TIP": "所有收到的 cookie 都会在这里展示",
         "EMPTY_HEADERS_TIP": "所有收到的 header 都会在这里展示"
+      },
+      "NAV": {
+        "CLOSE_THIS": "关闭",
+        "CLOSE_ALL": "关闭全部选项卡",
+        "CLOSE_OTHER": "关闭其它选项卡",
+        "CLOSE_LEFT": "关闭左边所有选项卡",
+        "CLOSE_RIGHT": "关闭右边所有选项卡"
       }
     },
     "API_DOCUMENT": {
@@ -62,6 +110,11 @@
     "COME_ON": "加油!"
   },
   "MESSAGE": {
+    "COPY_SUCCESS": "复制成功",
+    "PARSER_ERROR": "解析错误",
+    "CANCEL": "取消",
+    "CONFIRM": "确认",
+    "BACK": "返回",
     "EXIST_FULL": "退出全屏",
     "DEVELOPING": "该功能正在开发中",
     "APPLY_SUCCESS": "设置已经生效",
@@ -69,5 +122,19 @@
     "I_KNOW": "知道了",
     "FEATURE_HELPER": "关于该功能的规划与设计,您可以",
     "BEAUTIFY": "美化"
+  },
+  "STUDY": {
+    "NAME": "用户指南"
+  },
+  "LINK": {
+    "GITHUB": "https://github.com/AdvancedProductivity/Gable",
+    "DOCUMENT": "https://advancedproductivity.github.io/GablePreview/docs/zh/",
+    "PRE_SCRIPT": "https://advancedproductivity.github.io/GablePreview/docs/zh/guide/feature-design.html#pre-script",
+    "POST_SCRIPT": "https://advancedproductivity.github.io/GablePreview/docs/zh/guide/feature-design.html#post-script",
+    "POST_SCRIPT_RESP": "https://advancedproductivity.github.io/GablePreview/docs/zh/guide/feature-design.html#post-script-response",
+    "MOCK": "https://advancedproductivity.github.io/GablePreview/docs/zh/guide/feature-design.html#mock",
+    "DOCUMENT_PAGE": "https://advancedproductivity.github.io/GablePreview/docs/zh/guide/document.html",
+    "SETTING_GABLE": "https://advancedproductivity.github.io/GablePreview/docs/zh/guide/setting.html#gable-%E6%9C%8D%E5%8A%A1%E5%9C%B0%E5%9D%80",
+    "SETTING_PROXY": "https://advancedproductivity.github.io/GablePreview/docs/zh/guide/setting.html#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE"
   }
 }

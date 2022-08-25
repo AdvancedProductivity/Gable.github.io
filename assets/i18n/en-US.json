@@ -23,6 +23,8 @@
     },
     "API_TEST": {
       "NAME": "API Test",
+      "NO_CONTENT": "No Content To Show",
+      "SELECT_FROM_MENU": "Please Select Something In The Left Menu",
       "TREE_MENU": {
         "SEARCH_PLACE_HOLDER": "Search API By Name Or Keyword",
         "LOAD_MENU": "API Collections Data Loading...",
@@ -34,6 +36,7 @@
       "HEADER": {
         "ENV_SELECT": "Select Environment",
         "METHOD_SELECT": "Method",
+        "DISCARD_CHANGE": "Discard Changes",
         "SAVE": "Save"
       },
       "REQ": {
@@ -47,7 +50,52 @@
         "EMPTY_HEADERS_HEADER": "No headers received from the server",
         "EMPTY_COOKIE_TIP": "All your cookies and their associated domains will appear here.",
         "EMPTY_HEADERS_TIP": "All your headers will appear here."
+      },
+      "NAV": {
+        "CLOSE_ALL": "Close All Tabs",
+        "CLOSE_THIS": "Close",
+        "CLOSE_OTHER": "Close Other Tabs",
+        "CLOSE_LEFT": "Close All Left Tabs",
+        "CLOSE_RIGHT": "Close Right Left Tabs"
       }
+    },
+    "DOCS": {
+      "CREATE": "Create New Doc",
+      "COPY_HOST": "Copy Host",
+      "COPY_PATH": "Copy Path",
+      "COPY_ALL": "Copy All",
+      "FROM_AUTO_GEN": "This Doc From Auto Generate By Api Collection",
+      "FROM_AUTO_USER_CREATE": "This Doc Was Created By User",
+      "JSON_DOC_GEN": "Edit Doc",
+      "JSON_DOC_GEN_EXIST": "Exist Edit",
+      "APPEND_DOC": "Append Doc",
+      "DOC_URL": "Request URL",
+      "DOC_HEADER": "Request Header",
+      "REQ_TYPE": "Request Type",
+      "QUERY_PARAM": "Query Parameter",
+      "FORM_DATA": "Form Data",
+      "BODY_TEXT": "Request Body Text Sample",
+      "BODY_TEXT_INFO": "Request Body Info",
+      "RESP_BODY_TEXT": "Return Data Sample",
+      "RESP_BODY_TEXT_INFO": "Return Data Info",
+      "RUNNER": "Runner Panel",
+      "ADD_NEW_ARTICLE": "Add Page",
+      "BACK": "Back",
+      "SELECT_A_DOC": "Please select a document in the left",
+      "ADD_CONTENT": "Please Add Content By Click Top Button",
+      "DOC_NAME": "Doc Name",
+      "EDITOR_DATA": "Get Editor Data",
+      "STASH": "Stash",
+      "EDIT": "Edit",
+      "LOADING_BLOCK": "Doc Blocks Is Loading....",
+      "SAVE": "Save",
+      "PREVIEW": "Preview",
+      "COLLECTION_SELECT": "Select Collection",
+      "JSON_FIELD_NAME": "Field Name",
+      "JSON_FIELD_TYPE": "Field Type",
+      "JSON_FIELD_SAMPLE": "Sample Value",
+      "JSON_FIELD_DESCRIBE": "Description",
+      "HTTP_SELECT": "Select Http"
     },
     "API_DOCUMENT": {
       "NAME": "API Document"
@@ -62,6 +110,11 @@
     "COME_ON": "Come On!"
   },
   "MESSAGE": {
+    "COPY_SUCCESS": "Copy Success",
+    "PARSER_ERROR": "Parser Error",
+    "CANCEL": "Cancel",
+    "CONFIRM": "Confirm",
+    "BACK": "Back",
     "EXIST_FULL": "Exist",
     "DEVELOPING": "This feature is developing",
     "APPLY_SUCCESS": "Config Have Been Apply",
@@ -69,5 +122,19 @@
     "THANKS_FOR_COME_ON": "Thank you for your encouragement. I will try my best!",
     "FEATURE_HELPER": "about the planning and design of this feature",
     "BEAUTIFY": "Beautify"
+  },
+  "STUDY": {
+    "NAME": "User Guide"
+  },
+  "LINK": {
+    "GITHUB": "https://github.com/AdvancedProductivity/Gable",
+    "DOCUMENT": "https://advancedproductivity.github.io/GablePreview/docs/",
+    "PRE_SCRIPT": "https://advancedproductivity.github.io/GablePreview/docs/guide/feature-design.html#pre-script",
+    "POST_SCRIPT": "https://advancedproductivity.github.io/GablePreview/docs/guide/feature-design.html#post-script",
+    "POST_SCRIPT_RESP": "https://advancedproductivity.github.io/GablePreview/docs/guide/feature-design.html#post-script-response",
+    "MOCK": "https://advancedproductivity.github.io/GablePreview/docs/guide/feature-design.html#mock",
+    "DOCUMENT_PAGE": "https://advancedproductivity.github.io/GablePreview/docs/guide/document.html",
+    "SETTING_GABLE": "https://advancedproductivity.github.io/GablePreview/docs/guide/setting.html#gable-%E6%9C%8D%E5%8A%A1%E5%9C%B0%E5%9D%80",
+    "SETTING_PROXY": "https://advancedproductivity.github.io/GablePreview/docs/guide/setting.html#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE"
   }
 }
